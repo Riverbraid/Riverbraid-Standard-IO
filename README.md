@@ -1,19 +1,33 @@
-﻿# Riverbraid-Standard-IO
-## Riverbraid Unified Control Architecture v2.1
+# Riverbraid-Standard-IO
 
-### Cognitive Signature
-This repository operates under the **Fail-Closed** discipline and **Mechanical Honesty**. It is a sovereign, closed-loop reference within the Riverbraid Epoch.
+**Lifecycle category:** canonical
+**Normative source:** Riverbraid-Core
+**Claim boundary:** Declared Conditions Only
 
-### Formal Specification
-*   **Coupling Test**: Passed. Verified against the Unified Control & Relational Integrity (UCRI) framework.
-*   **Scale Separation Gate**: Active. Enforces protocol binding to prevent cross-domain replay.
-*   **Linear vs Nonlinear**: Tagged for structural governance detection.
-*   **Stationary State Invariant**: Set at Merkle Root de2062.
+## Role in Riverbraid
 
-### Usage & Integrity
-All commands and interactions within this stack prioritize **coherence over speed**.
-Spatial integrity is maintained via filesystem hash recomputation.
+Riverbraid-Standard-IO is a canonical support surface within Riverbraid.
+
+This repository represents standard input and output support inside the current Evaluation Kit registry. It preserves input and output boundary material as part of the public Riverbraid verification constellation while Riverbraid-Core remains the normative source for protocol semantics.
+
+## Public verification boundary
+
+This repository is part of the current Evaluation Kit canonical verification registry.
+
+Primary public entry point:
+https://github.com/Riverbraid/Riverbraid-Evaluation-Kit
+
+Documentation hub:
+https://github.com/Riverbraid/Riverbraid-Documentation
+
+## Evidence boundary
+
+This repository provides inspectable verification logic. It does not claim certification, legal approval, production readiness, absolute security, external audit, complete AI safety, adoption, or absence of defects.
+
+## Authority boundary
+
+Riverbraid-Core remains the normative source for protocol semantics. This repository does not redefine canonical Riverbraid protocol rules.
 
 ---
-*Last Synchronized: 2026-04-30 01:50*
-*Status: integration_rest*
+
+**Navigation:** [Evaluation Kit](https://github.com/Riverbraid/Riverbraid-Evaluation-Kit) | [Documentation](https://github.com/Riverbraid/Riverbraid-Documentation) | [System Map](https://github.com/Riverbraid/Riverbraid-Documentation)
